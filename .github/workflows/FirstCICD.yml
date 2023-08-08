@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -name: print greating
-        run: echo "hello world"
+        runs: echo "hello world"
       -name: print good bye 
         run: echo "BYE"
   
